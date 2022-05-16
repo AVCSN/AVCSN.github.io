@@ -1,0 +1,38 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+body, html {
+  height: 100%;
+}
+html {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+}
+body {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  height: auto;
+  background: none;
+}
+
+.regionSelector {
+  margin: 20px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
